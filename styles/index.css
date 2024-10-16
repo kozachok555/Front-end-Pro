@@ -1,0 +1,389 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    min-height: 100vh;
+    line-height: 1;
+    text-rendering: optimizeSpeed;
+}
+img,
+svg,
+video{
+    display: block;
+    max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+header{
+    height: 46px;
+    width: auto;
+    margin: 0 auto;
+}
+footer{
+    margin: 0 auto;
+    width: auto;
+    height: 536px;
+    background: #19191C;
+}
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container{
+    margin: 0 auto;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    height: 536px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__img{
+    width: 42px;
+    height: 36px;
+}
+.logo__text{
+    color:  #19191C;    
+    margin-left: 15px;
+    width: 89px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+    text-align: left;
+}
+.nav-page{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-page__box{
+    width: 300px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.decoration-none{
+    text-decoration: none;
+}
+.nav-page__courses{
+    display: flex;
+    color:  #19191C;  
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    align-items: center;
+}
+.nav-page__teachers{
+    display: flex;
+    align-items: center; 
+    width: 81px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+.nav-page__blog{
+    display: flex;
+    align-items: center;
+    width: 39px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+.text-color{
+    color:  #19191C; 
+}
+.nav-page__courses-button{
+    border: none;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.nav-settings{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+.sign-in__ref{
+    text-decoration: none;
+}
+.trial-free__ref{
+    text-decoration: none;
+}
+.language-toggle{
+    display: flex;
+}
+.language-toggle__button{
+    border: none;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.language-toggle__text{
+    width: 22px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+.sign-in__text{
+    width: 59px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+.trial-free{
+    width: Hug (153px)px;
+    height: Hug (46px)px;
+    left: 1287px;
+    padding: 12px 37px 12px 37px;
+    gap: 10px;
+    opacity: 0px;
+    background: #19191C;
+}
+.trial-free__text{
+    width: 79px;
+    height: 22px;
+    color: #EFEFF2;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+.nav-footer{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer__logo-footer{
+    width: 400px;
+}
+.nav-footer__courses{
+    width: 114px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-footer__teachers{
+    
+    width: 158px;
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-footer__information{
+    width: 101px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-footer__english{
+    width: 66px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-footer__logo{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.nav-footer__logo-img{
+    width: 42px;
+    height: 36px;
+}
+.nav-footer__logo-text{
+    margin-left: 10px;
+    padding-top: 1px;
+    color: #FBFBFC;   
+    width: 67px;
+    height: 22px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.78px;
+    text-align: left;
+}
+.nav-footer__main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 35px;
+    height: 90px;
+}
+.nav-footer__main-info_email{
+    width: 255px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+.nav-footer__main-info_phone{
+    width: 215px;
+    height: 29px; 
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+.courses-footer{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 228px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #EFEFF2;
+    
+}
+.teachers-footer{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 68px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #EFEFF2;
+}
+.info-footer{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 108px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #EFEFF2;
+}
+.language-footer{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 102px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #EFEFF2;
+}
+.policy-info{
+    width: 443px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.privacy{
+    text-decoration: none;
+    width: 118px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6D6D77;
+}
+.policy-text{
+    color: #6D6D77;
+    width: 297px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+.footer-text__names{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+    color: #FBFBFC;
+}
+.footer-text__descript{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #EFEFF2;
+}
