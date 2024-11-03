@@ -513,10 +513,10 @@ footer{
 }
 .vector-img{
     position: absolute;
-    width: 360px;
+    width: 330px;
     height: 500px;
     top: 290px;
-    right: 120px;
+    right: 51px;
     gap: 0px;
     opacity: 0px;
     border-radius: 50% 50% 0 0;
